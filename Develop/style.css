@@ -20,6 +20,12 @@ textarea {
   border-radius: 15px;
 }
 
+.line-divider {
+  border: 0;
+  border-top: 10px solid black;
+  margin: 5px 0;
+}
+
 .row {
   border-top: 1px solid white;
 }
