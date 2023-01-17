@@ -18,12 +18,16 @@
     $('.time-block').each(function() {
       var hour = $(this).attr('id').substr(-2);
       console.log(hour);
+
       if (hour < currentHour) {
         $(this).addClass('past');
+        console.log(this);
       } else if (hour > currentHour) {
         $(this).addClass('future');
+        console.log(this);
       } else {
         $(this).addClass('present');
+        console.log(this);
       }
     });
 
